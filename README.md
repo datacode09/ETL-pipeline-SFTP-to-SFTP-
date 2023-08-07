@@ -11,7 +11,7 @@ Here are some important points to consider:
 
 First, install the necessary packages if you haven't already:
 
-b```
+```
 pip install paramiko coverage
 ```
 Create a file named ```test_pipeline.py``` for unit testing:
