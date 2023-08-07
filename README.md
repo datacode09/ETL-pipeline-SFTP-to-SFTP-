@@ -3,18 +3,18 @@ This script uses the paramiko library to interact with SFTP servers. You should 
 
 Here are some important points to consider:
 
-Replace placeholders (source_server_host, source_username, etc.) with actual values.
-Ensure you have the necessary permissions and access credentials for both SFTP servers.
-Modify the file paths and directories as needed.
-Customize error-handling to fit your requirements.
-This example doesn't cover advanced error handling, monitoring, or optimizations.
+* Replace placeholders (source_server_host, source_username, etc.) with actual values.
+* Ensure you have the necessary permissions and access credentials for both SFTP servers.
+* Modify the file paths and directories as needed.
+* Customize error-handling to fit your requirements.
+
 
 First, install the necessary packages if you haven't already:
 
-bash
-Copy code
+b```
 pip install paramiko coverage
-Create a file named test_pipeline.py for unit testing:
+```
+Create a file named ```test_pipeline.py``` for unit testing:
 
 ```
 import unittest
